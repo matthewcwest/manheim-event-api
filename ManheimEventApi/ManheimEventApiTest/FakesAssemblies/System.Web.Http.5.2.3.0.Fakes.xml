@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Web.Http.5.2.3.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Web.Http.Fakes.ShimAuthorizeAttribute">
+            <summary>Shim type of System.Web.Http.AuthorizeAttribute</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.#ctor(System.Web.Http.AuthorizeAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.HandleUnauthorizedRequestHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.HandleUnauthorizedRequest(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.IsAuthorizedHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.IsAuthorized(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.OnAuthorizationHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.OnAuthorization(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.RolesGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_Roles()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.RolesSetString">
+            <summary>Sets the shim of AuthorizeAttribute.set_Roles(String value)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.TypeIdGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_TypeId()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.UsersGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_Users()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.AllInstances.UsersSetString">
+            <summary>Sets the shim of AuthorizeAttribute.set_Users(String value)</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.Bind(System.Web.Http.Filters.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:System.Web.Http.Fakes.ShimAuthorizeAttribute.Bind(System.Web.Http.Filters.IFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.Constructor">
+            <summary>Sets the shim of AuthorizeAttribute.AuthorizeAttribute()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.HandleUnauthorizedRequestHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.HandleUnauthorizedRequest(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.IsAuthorizedHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.IsAuthorized(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.OnAuthorizationHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.OnAuthorization(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.RolesGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_Roles()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.RolesSetString">
+            <summary>Sets the shim of AuthorizeAttribute.set_Roles(String value)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.SkipAuthorizationHttpActionContext">
+            <summary>Sets the shim of AuthorizeAttribute.SkipAuthorization(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.SplitStringString">
+            <summary>Sets the shim of AuthorizeAttribute.SplitString(String original)</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.StaticConstructor">
+            <summary>Sets the shim of AuthorizeAttribute.AuthorizeAttribute()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.TypeIdGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_TypeId()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.UsersGet">
+            <summary>Sets the shim of AuthorizeAttribute.get_Users()</summary>
+        </member>
+        <member name="P:System.Web.Http.Fakes.ShimAuthorizeAttribute.UsersSetString">
+            <summary>Sets the shim of AuthorizeAttribute.set_Users(String value)</summary>
+        </member>
+        <member name="T:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute">
+            <summary>Shim type of System.Web.Http.Filters.AuthorizationFilterAttribute</summary>
+        </member>
+        <member name="M:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.#ctor(System.Web.Http.Filters.AuthorizationFilterAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.AllInstances.ExecuteAuthorizationFilterAsyncCoreHttpActionContextCancellationTokenFuncOfTaskOfHttpResponseMessage">
+            <summary>Sets the shim of AuthorizationFilterAttribute.ExecuteAuthorizationFilterAsyncCore(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1&lt;Task`1&lt;HttpResponseMessage&gt;&gt; continuation)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.AllInstances.OnAuthorizationAsyncHttpActionContextCancellationToken">
+            <summary>Sets the shim of AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.AllInstances.OnAuthorizationHttpActionContext">
+            <summary>Sets the shim of AuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.AllInstances.SystemWebHttpFiltersIAuthorizationFilterExecuteAuthorizationFilterAsyncHttpActionContextCancellationTokenFuncOfTaskOfHttpResponseMessage">
+            <summary>Sets the shim of AuthorizationFilterAttribute.System.Web.Http.Filters.IAuthorizationFilter.ExecuteAuthorizationFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1&lt;Task`1&lt;HttpResponseMessage&gt;&gt; continuation)</summary>
+        </member>
+        <member name="M:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.Bind(System.Web.Http.Filters.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.Bind(System.Web.Http.Filters.IFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.Constructor">
+            <summary>Sets the shim of AuthorizationFilterAttribute.AuthorizationFilterAttribute()</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.ExecuteAuthorizationFilterAsyncCoreHttpActionContextCancellationTokenFuncOfTaskOfHttpResponseMessage">
+            <summary>Sets the shim of AuthorizationFilterAttribute.ExecuteAuthorizationFilterAsyncCore(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1&lt;Task`1&lt;HttpResponseMessage&gt;&gt; continuation)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.OnAuthorizationAsyncHttpActionContextCancellationToken">
+            <summary>Sets the shim of AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.OnAuthorizationHttpActionContext">
+            <summary>Sets the shim of AuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)</summary>
+        </member>
+        <member name="P:System.Web.Http.Filters.Fakes.ShimAuthorizationFilterAttribute.SystemWebHttpFiltersIAuthorizationFilterExecuteAuthorizationFilterAsyncHttpActionContextCancellationTokenFuncOfTaskOfHttpResponseMessage">
+            <summary>Sets the shim of AuthorizationFilterAttribute.System.Web.Http.Filters.IAuthorizationFilter.ExecuteAuthorizationFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1&lt;Task`1&lt;HttpResponseMessage&gt;&gt; continuation)</summary>
+        </member>
+    </members>
+</doc>

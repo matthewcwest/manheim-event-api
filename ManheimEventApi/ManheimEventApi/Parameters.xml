@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <parameter name="LogLocation" description="log4net log location"  defaultvalue="__LogLocation__">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/log4net/appender[@name='RollingFileAppender']/file/@value"/>
+  </parameter>
+  <parameter name="ConnectionString" description="SQL Connection String" defaultvalue="__ConnectionString__">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/connectionStrings/add[@name='DbContext']/@connectionString"/>
+  </parameter>
+  <parameter name="ApiKey" description="Api Key" defaultvalue="__ApiKey__">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='apiKey']/@value"/>
+  </parameter>
+</parameters>

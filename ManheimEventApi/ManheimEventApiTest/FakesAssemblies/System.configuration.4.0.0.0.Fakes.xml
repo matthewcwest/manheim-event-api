@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.configuration.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Configuration.Fakes.ShimConfigurationManager">
+            <summary>Shim type of System.Configuration.ConfigurationManager</summary>
+        </member>
+        <member name="M:System.Configuration.Fakes.ShimConfigurationManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.AppSettingsGet">
+            <summary>Sets the shim of ConfigurationManager.get_AppSettings()</summary>
+        </member>
+        <member name="M:System.Configuration.Fakes.ShimConfigurationManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Configuration.Fakes.ShimConfigurationManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.ConnectionStringsGet">
+            <summary>Sets the shim of ConfigurationManager.get_ConnectionStrings()</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.GetSectionString">
+            <summary>Sets the shim of ConfigurationManager.GetSection(String sectionName)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenExeConfigurationConfigurationUserLevel">
+            <summary>Sets the shim of ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel userLevel)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenExeConfigurationString">
+            <summary>Sets the shim of ConfigurationManager.OpenExeConfiguration(String exePath)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenMachineConfiguration">
+            <summary>Sets the shim of ConfigurationManager.OpenMachineConfiguration()</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenMappedExeConfigurationExeConfigurationFileMapConfigurationUserLevel">
+            <summary>Sets the shim of ConfigurationManager.OpenMappedExeConfiguration(ExeConfigurationFileMap fileMap, ConfigurationUserLevel userLevel)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenMappedExeConfigurationExeConfigurationFileMapConfigurationUserLevelBoolean">
+            <summary>Sets the shim of ConfigurationManager.OpenMappedExeConfiguration(ExeConfigurationFileMap fileMap, ConfigurationUserLevel userLevel, Boolean preLoad)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.OpenMappedMachineConfigurationConfigurationFileMap">
+            <summary>Sets the shim of ConfigurationManager.OpenMappedMachineConfiguration(ConfigurationFileMap fileMap)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.RefreshSectionString">
+            <summary>Sets the shim of ConfigurationManager.RefreshSection(String sectionName)</summary>
+        </member>
+        <member name="P:System.Configuration.Fakes.ShimConfigurationManager.StaticConstructor">
+            <summary>Sets the shim of ConfigurationManager.ConfigurationManager()</summary>
+        </member>
+    </members>
+</doc>
